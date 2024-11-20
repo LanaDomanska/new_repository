@@ -1,0 +1,108 @@
+    1  git clone git@github.com:LanaDomanska/the_first_repository.git
+    2  cat config
+    3  cd MINGW64:/c/Users/Lana_Domanska/Linux
+    4  cd /c/Users/Lana_Domanska
+    5  cd /c/Users/Lana_Domanska/Linux
+    6  mkdir git_intro
+    7  cd git_intro
+    8  git init
+    9  git add sky.jpg
+   10  git commit -m "Added photo"
+   11  git config --global user.name"Lana_Domanska"
+   12  git config --global user.email"domanssskaya@gmail.com"
+   13  git config --global
+   14  git config --global user.name"Domanska"
+   15  git config --global
+   16  git config
+   17  cat config
+   18  git commit -m "Added photo"
+   19  cd /c/Users/Lana_Domanska/Linux/Git
+   20  git config --global user.name "Domanska"
+   21  git config --global user.email "domanssskaya@gmail.com"
+   22  mkdir git_intro
+   23  cd git_intro
+   24  git init
+   25  git add sky.jpg
+   26  git commit -m "Added photo"
+   27  git branch -M main
+   28  git remote add origin git@github.com:LanaDomanska/git_intro.git
+   29  git push -u origin main
+   30  git push -u origin main
+   31  cd \c\Users\Lana_Domanska\Linux\Git
+   32  cd c\Users\Lana_Domanska\Linux\Git
+   33  cd /c/Users/Lana_Domanska/Linux/Git
+   34  mkdir git-branch
+   35  cd git-branch
+   36  git init
+   37  git checkout -b gitignore
+   38  curl -o .gitignore https://raw.githubusercontent.com/LanaDomanska/git-branch/main/.gitignore
+   39  git remote add origin git@github.com:LanaDomanska/git-branch.git
+   40  git push -u origin gitignore
+   41  git add .gitignore
+   42  git commit -m "Add .gitignore file"
+   43  git remote add origin git@github.com:LanaDomanska/git-branch.git
+   44  git push -u origin gitignore
+   45  #!/bin/bash
+   46  # Assign the USER variable
+   47  USER="Svetlana"
+   48  # Print the date
+   49  echo $(date)
+   50  # Greet the user
+   51  echo "Hello $USER!"
+   52  # Print the current directory
+   53  echo "Current directory: $(pwd)"
+   54  # Count processes with the name 'bioset' excluding the 'grep' process
+   55  echo "Number of bioset processes:" $(ps -ef | grep bioset | grep -v grep | wc -l)
+   56  # Show permissions for /etc/passwd
+   57  echo "Permissions for /etc/passwd:" $(ls -l /etc/passwd | awk '{print $1}')
+   58  cd C:\Users\Lana_Domanska\Linux
+   59  cd C/Users/Lana_Domanska/Linux
+   60  touch myfirstbashscript.sh
+   61  nano myfirstbashscript.sh
+   62  chmod +x myfirstbashscript.sh
+   63   ./myfirstbashscript.sh
+   64   ./myfirstbashscript.sh > output.txt
+   65  cat output.txt
+   66  #!/bin/bash
+   67  User="Karina"
+   68  echo "Current date: $(date)"
+   69  echo "Hello, $USER!"
+   70  echo "Current directory: $(pwd)"
+   71  bioset_count=$(ps -ef | grep bioset | grep -v grep | wc -l)
+   72  echo "Number of bioset processes: $bioset_count"
+   73  permissions=$(ls -l /etc/passwd | awk '{print $1}')
+   74  echo "Permissions for /etc/passwd: $permissions"
+   75  cd /C/Users/Lana_Domanska/Desktop/IT CH/Linux
+   76  cd /Desktop/IT CH/Linux
+   77  cd /c/Users/Lana_Domanska/Linux
+   78  touch myfirstbashscript.sh
+   79  chmod +x myfirstbashscript.sh
+   80  nano myfirstbashscript.sh
+   81  ./myfirstbashscript.sh
+   82  cat ~/myfirstbashscript.sh >> /tmp/file.txt
+   83  ls -l
+   84  ./myfirstbashscript.sh
+   85  cd /c/Users/Lana_Domanska/Linux
+   86  touch myfirstbashscript.sh
+   87  chmod +x myfirstbashscript.sh
+   88  nano myfirstbashscript.sh
+   89  ./myfirstbashscript.sh
+   90  cd /c/Users/Lana_Domanska/Linux
+   91  git clone git@github.com:LanaDomanska/new_repository.git
+   92  cd new_repository
+   93  touch .gitignore
+   94  echo "*.log" > .gitignore
+   95  git add .gitignore
+   96  git commit -m "Добавлен в файл .gitignore"
+   97  git push origin main
+   98  git checkaut -b feature
+   99  git checkout -b feature
+  100  echo "Этот проэкт создан для демонстрации Git." > README.md
+  101  echo "*.tmp" >> .gitignore
+  102  git push origin feature
+  103  git commit --amend -m "Добавлены README.md и обновлен .gitignore с использованием amend"
+  104  git push origin feature --force
+  105  git checkout main
+  106  git merge feature
+  107  git push origin main
+  108  history > history.txt
